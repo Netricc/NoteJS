@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.app {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.app .head {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+.app .inputs {
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.app .inputs input {
+    font-family: Arial, sans-serif;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background: #fff;
+}
+
+.app .inputs textarea {
+    font-family: Arial, sans-serif;
+    outline: none;
+    border: none;
+    padding: 10px;
+    height: 200px;
+    background: #fff;
+    resize: none;
+}
+
+.app .inputs .buttons {
+    padding: 20px;
+}
+
+.app .inputs .buttons button {
+    font-family: Arial, sans-serif;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+.app .inputs .buttons button:hover {
+    background: #151515;
+}
+
+.app .outputs {
+    width: 100%;
+    height: 100%;
+
+}
+
+.app .outputs .list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app .outputs .list article {
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.app .outputs .list article p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #f2f2f2;
+}
+
+.app .outputs .list article button {
+    text-align: left;
+    width: 30%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(255, 120, 120);
+    transition: .3s;
+}
+
+.app .outputs .list article button:hover {
+    color: red;
+    cursor: pointer;
+}
